@@ -1,0 +1,18 @@
+{
+  "name": "pi-guard-rails-on-bash-commands",
+  "version": "1.0.0",
+  "description": "Confirms every bash command; allowlist lets safe read-only commands through without a prompt",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "author": "Andrew S Aguiar",
+  "pi": {
+    "extensions": [
+      "."
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
